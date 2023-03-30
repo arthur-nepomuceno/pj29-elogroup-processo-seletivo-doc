@@ -1,0 +1,13 @@
+Função: recuperarMenoresLancamentos(lancamentos)
+
+- Tipo de parâmetro de entrada: array. Uma lista com todos os lançamentos de todos os CPF's.
+
+Exemplo: [{cpf: 'cpf1', valor: valor_1}, {cpf: 'cpf2', valor: valor_2}, ... ,{cpf: 'cpf', valor: valor}]
+
+- Tipo de retorno: object. Um objeto onde cada chave é um CPF e cada valor é o menor lancamento
+correspondente para o respectivo CPF.
+
+Exemplo: {'cpf1': menor_lancamento-cpf1, 'cpf2': menor_lancamento-cpf2, ..., 'cpf': menor_lancamento-cpf}
+
+- Descrição: com base na lista de todos os lançamentos de todos os CPFs, usa um laço "for" para gerar
+um objeto contendo somente o menor lançamento feito por cada CPF.

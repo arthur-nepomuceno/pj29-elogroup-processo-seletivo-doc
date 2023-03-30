@@ -1,0 +1,10 @@
+Função: verificarDoisUltimosDigitosDoCPF(cpf)
+
+- Tipo de parâmetro de entrada: string. O cpf informado.
+
+- Tipos de retorno: boolean. Retorna "true" se os dois dígitos verificadores estiverem corretos,
+e "false" caso não estejam. 
+
+- Descrição: Com base nos primeiros dígitos do cpf, esta função calcula aqueles que
+deveriam ser seus dois dígitos verificadores. Feito esse cálculo, ela compara com os dígitos que
+foram de fato informados no cpf.  

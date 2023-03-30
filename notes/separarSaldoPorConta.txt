@@ -1,0 +1,11 @@
+Função: separarSaldoPorConta(contasESaldos)
+
+- Tipo de parâmetro de entrada: object. Um objeto no formato {'cpf1': saldo, 'cpf2': saldo, ..., 'cpf': saldo} 
+
+- Tipo de retorno: array. Uma lista de objetos no formato
+[{cpf: 'cpf1', valor: saldo}, {cpf: 'cpf2', valor: saldo}, ... ,{cpf: 'cpf', valor: saldo}]
+
+- Descrição: recebe como parâmetro um objeto que é gerado pela função _agruparContasESaldos_
+(também descrita nesta documentação). Formata objeto recebido gerando um array a partir dele.
+Este array, por sua vez, é composto de vários objetos onde cada um deles representa uma 
+conta e um lançamento.

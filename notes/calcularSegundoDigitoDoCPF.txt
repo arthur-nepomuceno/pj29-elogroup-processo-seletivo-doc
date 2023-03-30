@@ -1,0 +1,6 @@
+const calcularSegundoDigitoDoCPF = (cpf) => {}
+
+Função: calcularSegundoDigitoDoCPF
+
+- Tipo de parâmetro de entrada: string. O cpf informado.
+- Tipos de retorno: number. O segundo dígito verificador do cpf, com base nos dígitos anteriores. 

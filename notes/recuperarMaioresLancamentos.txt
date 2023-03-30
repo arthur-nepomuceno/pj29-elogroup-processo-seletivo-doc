@@ -1,0 +1,13 @@
+Função: recuperarMaioresLancamentos(lancamentos)
+
+- Tipo de parâmetro de entrada: array. Uma lista com todos os lançamentos de todos os CPF's.
+
+Exemplo: [{cpf: 'cpf1', valor: valor_1}, {cpf: 'cpf2', valor: valor_2}, ... ,{cpf: 'cpf', valor: valor}]
+
+- Tipo de retorno: object. Um objeto onde cada chave é um CPF e cada valor é o maior lancamento
+correspondente para o respectivo CPF.
+
+Exemplo: {'cpf1': maior_lancamento-cpf1, 'cpf2': maior_lancamento-cpf2, ..., 'cpf': maior_lancamento-cpf}
+
+- Descrição: com base na lista de todos os lançamentos de todos os CPFs, usa um laço "for" para gerar
+um objeto contendo somente o maior lançamento feito por cada CPF.

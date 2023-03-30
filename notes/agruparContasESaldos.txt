@@ -1,0 +1,9 @@
+Função: agruparContasESaldos(lancamentos)
+
+- Tipo de parâmetro de entrada: array. Lista com todos os lançamentos de todos os cpfs.
+
+- Tipo de retorno: object. Um objeto onde as chaves são os cpfs e os valores são os 
+respectivos saldos.
+
+- Descrição: com base na lista de todos os lançamentos, usa um laço "for" para separar os CPFs
+e associar cada um deles ao seu saldo. {'cpf1': saldo, 'cpf2': saldo, ..., 'cpf': saldo}

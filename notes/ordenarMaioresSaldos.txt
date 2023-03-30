@@ -1,0 +1,15 @@
+Função: ordenarMaioresSaldos(contasESaldos)
+
+- Tipo de parâmetro de entrada: object. Um objeto no formato {'cpf1': saldo, 'cpf2': saldo, ..., 'cpf': saldo}
+
+- Tipo de retorno: array. Uma lista contendo o saldo de cada CPF, ordenados do maior saldo
+para o menor saldo.
+Exemplo: [{cpf: 'cpf1', valor: saldo}, {cpf: 'cpf2', valor: saldo}, ... ,{cpf: 'cpf', valor: saldo}]
+
+- Descrição: recebe como parâmetro um objeto que é gerado pela função _agruparContasESaldos_
+(também descrita nesta documentação). Transforma esse objeto em uma lista de listas, onde cada
+lista menor é composta de dois elementos: o CPF e o saldo correspondente.
+
+Exemplo: [['cpf1', saldo], ['cpf2', saldo], ... ,['cpf', saldo]]
+
+Esta lista então é ordenada, do maior para o menor saldo, e depois transformada novamente um objeto.

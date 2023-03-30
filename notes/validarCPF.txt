@@ -1,0 +1,10 @@
+Função: validarCPF(cpf)
+
+- Tipo de parâmetro de entrada: string. O cpf informado.
+
+- Tipos de retorno: string || null. Retorna uma mensagem de erro se o CPF for inválido, ou null
+se estiver tudo certo.
+
+- Descrição: verifica se o CPF informado é válido, com base em 3 regras: a) O CPF deve ser um
+número, não contendo traços nem pontos. b) O CPF deve ter 11 dígitos. c) O CPF deve ter os dígitos
+verificadores válidos.  

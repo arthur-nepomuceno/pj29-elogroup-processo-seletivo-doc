@@ -1,0 +1,14 @@
+Função: recuperarMediaPorConta(contasESaldos, quantidadeLancamentosPorConta)
+
+- Tipo de parâmetro de entrada: object, object. "contasESaldos" é um objeto contendo cada CPF
+associado ao respectivo saldo. "quantidadeLancamentosPorConta" é um objeto contendo cada CPF
+associado a respectiva quantidade de lançamentos feitas. 
+
+- Tipo de retorno: object. Um objeto contendo os CPFs como chaves e as respectivas médias 
+dos lançamentos feitos por cada um.
+Exemplo: {'cpf1': media-1, 'cpf2': media-2, ..., 'cpf': media} 
+
+- Descrição: a partir de contasESaldos, gera uma lista com todas as contas. Usa um laço "for"
+para iterar por cima da lista de contas. Usando o CPF como chave, pega o valor do saldo e divide
+pelo número de lançamentos para calcular a media. Agora com a media, gera um novo objeto, com o 
+CPF como chave e a média como valor.

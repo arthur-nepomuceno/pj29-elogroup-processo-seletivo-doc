@@ -1,0 +1,6 @@
+const calcularPrimeiroDigitoDoCPF = (cpf) => {}
+
+Função: calcularPrimeiroDigitoDoCPF
+
+- Tipo de parâmetro de entrada: string. O cpf informado.
+- Tipos de retorno: number. O primeiro dígito verificador do cpf, com base nos dígitos anteriores. 

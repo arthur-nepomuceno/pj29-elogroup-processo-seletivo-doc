@@ -1,0 +1,45 @@
+Como resolvi:
+
+- criar um objeto para armazenar cada Conta e seu respectivo Saldo
+    - estratégia de hashTables
+        - a partir da lista de objetos originais, criar um objeto menor
+        que armazenasse o número do cpf e acumulasse a soma de cada Saldo
+
+    const contasESaldos = {};
+    
+    let soma = 0;
+    for(let i = 0; i < lancamentos.length; i++){
+        const lancamento = lancamentos[i];
+        const cpf = lancamento.cpf;
+        const valor = lancamento.valor;
+         
+        if(contasESaldos[cpf]){                 //se já houver essa chave em Contas E Saldos
+           soma = contasESaldos[cpf] + valor;   //eu somo o valor já existente com o atual
+           contasESaldos[cpf] = soma;           //e salvo de volta na chave
+        } else {
+           contasESaldos[cpf] = valor           //e se a chave for nova, eu salvo com o valor atual
+        }
+    }
+
+- como não seria tão simples iterar sobre o objeto contasESaldos,
+  gerar uma lista de contas onde cada cpf aparece só uma vez.
+
+    const listaDeContas = Object.keys(contasESaldos);
+
+- iterar sobre essa lista para gerar um objeto novo e adiciona-lo à lista final
+      
+    for(let i = 0; i < listaDeContas.length; i++){
+        const conta = `${listaDeContas[i]}`;        //iterando sobre a lista de contas, consigo abordar cada uma separadamente
+        const saldo = contasESaldos[conta];         //com a chave conta, consigo acessar os respectivos valores dentro da lista de contas e saldos
+        
+        const saldoPorConta = {}                //declaro o objeto que vai armazenar somente uma conta e seu saldo
+        
+        saldoPorConta['cpf'] = conta;           //associo a conta à chave "cpf"
+        saldoPorConta['valor'] = saldo;         //associo o saldo à chave "valor"
+        saldosPorConta.push(saldoPorConta);     //adiciono o objeto à lista final
+    }
+
+    return saldosPorConta;                      //retorno a lista
+    
+Há laços aninhados? Não.
+Complexidade da solução: O(n).

@@ -1,0 +1,9 @@
+Função: validarValor(cpf)
+
+- Tipo de parâmetro de entrada: number. O valor informado.
+
+- Tipos de retorno: string || null. Retorna uma mensagem de erro se o valor for inválido, ou null
+se estiver tudo certo.
+
+- Descrição: verifica se o valor informado é válido, com base em duas regras: a) Um número deve
+ser informado. b) O numero deve estar entre -2000 e 15000.

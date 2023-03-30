@@ -1,0 +1,16 @@
+Função: ordenarMaioresMedias(mediasPorConta)
+
+- Tipo de parâmetro de entrada: object. Um objeto contendo os CPFs como chaves e as respectivas
+médias como valores.
+
+- Tipo de retorno: array. Uma lista de objetos, ordenada da maior para a menor média, onde cada
+item é um objeto no seguinte formato: [{cpf: 'cpf1', valor: media}, {cpf: 'cpf2', valor: media}, ... ,{cpf: 'cpf', valor: media}]
+
+- Descrição: partindo do objeto contendo as medias por conta, esta função gera duas listas:
+uma contendo as contas (CPFs) e outra contendo as medias.
+
+Com essas duas listas, faz uso de uma lista auxiliar para gerar uma terceira lista, composta
+por pares [cpf, média], ordenados da maior para a menor média.
+
+Por fim, converte essa terceira lista em uma lista final, composta de objetos no formato
+{cpf: 'cpf', valor: 'media'}, ordenados da maior para a menor média.

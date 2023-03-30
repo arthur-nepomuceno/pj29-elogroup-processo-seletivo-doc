@@ -1,0 +1,11 @@
+Função: recuperarQuantidadeLancamentosPorConta(lancamentos)
+
+- Tipo de parâmetro de entrada: array. Uma lista com todos os lançamentos já feitos. 
+
+- Tipo de retorno: object. Um objeto contendo os CPFs como chaves e as respectivas quantidades 
+de lançamentos feitos por cada um.
+Exemplo: {'cpf1': qtd-de-lancamentos-1, 'cpf2': qtd-de-lancamentos-2, ..., 'cpf': qtd-de-lancamentos} 
+
+- Descrição: recebe como parâmetro uma lista com todos os lançamentos já feitos. Usando um loop em
+"for", gera um único objeto onde cada chave é um CPF e cada valor correspondente é o número de
+lançamentos feitos por aquele CPF.
