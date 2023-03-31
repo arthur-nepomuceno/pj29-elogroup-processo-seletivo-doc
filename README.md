@@ -1,3 +1,26 @@
+## <p align = "center">  - EloGroup - Processo Seletivo - </p>
+
+<p align = "center">
+   <img src="https://img.shields.io/badge/autor-Arthur Nepomuceno-093D04?style=flat-square" />
+</p>
+
+## Sumário
+   1. agruparContasESaldos(lancamentos)
+   2. calcularPrimeiroDigitoDoCPF(cpf)
+   3. calcularSegundoDigitoDoCPF(cpf)
+   4. ordenarMaioresMedias(mediasPorConta)
+   5. ordenarMaioresSaldos(contasESaldos)
+   6. recuperarMaioresLancamentos(lancamentos)
+   7. recuperarMediaPorConta(contasESaldos, quantidadeLancamentosPorConta)
+   8. recuperarMenoresLancamentos(lancamentos)
+   9. recuperarQuantidadeLancamentosPorConta(lancamentos)
+   10. separarSaldoPorConta(contasESaldos)
+   11. validarCPF(cpf)
+   12. validarValor(valor)
+   13. verificarDoisUltimosDigitosDoCPF(cpf)
+
+***
+
 1. _agruparContasESaldos(lancamentos)_
 
 ```
@@ -149,7 +172,7 @@ se estiver tudo certo.
 número, não contendo traços nem pontos. b) O CPF deve ter 11 dígitos. c) O CPF deve ter os dígitos
 verificadores válidos.  
 
-12. _validarValor(cpf)_
+12. _validarValor(valor)_
 
 ```
 - Tipo de parâmetro de entrada: number. O valor informado.
