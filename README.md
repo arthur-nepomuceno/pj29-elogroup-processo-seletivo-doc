@@ -4,6 +4,10 @@
    <img src="https://img.shields.io/badge/autor-Arthur Nepomuceno-093D04?style=flat-square" />
 </p>
 
+## Apresentação
+   - Este documento é o compilado das funções desenvolvidas para solução do teste técnico, no formato de desafio javaScript, proposto pela EloGroup em Março de 2023.
+   - Seu propósito é servir tanto para consulta quanto para esclarecimento do processo de desenvolvimento destas soluções, sempre que necessário.
+   
 ## Sumário
    1. agruparContasESaldos(lancamentos)
    2. calcularPrimeiroDigitoDoCPF(cpf)
@@ -20,6 +24,7 @@
    13. verificarDoisUltimosDigitosDoCPF(cpf)
 
 ***
+## Funções
 
 1. _agruparContasESaldos(lancamentos)_
 
